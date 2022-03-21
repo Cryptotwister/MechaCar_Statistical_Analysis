@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-Jeremy and the data analytics teamof AutoRUs' is assigned to perform data analysis on a new prototipe MechaCar, which is suffering from production troubles that are blocking the manufacturing team’s progress.
+Jeremy and the data analytics teamof AutoRUs' is assigned to perform data analysis on a new prototype MechaCar, which is suffering from production troubles that are blocking the manufacturing team’s progress.
 Analysis should be conducted to review the production data for insights that may help the manufacturing team.
 
 In this assignment, we need to assist Jeremy with the following:
@@ -55,21 +55,35 @@ The output above indicates that the suspension coils across all manufacturing lo
 The p-value is 0.06028 which is greater than 0.05 so we fail to reject the null hypothesis, as there is not enough evidence to support its rejection.
 
 * Lot1.
-The results of the T-test for the suspension coils against manufacturing Lot1 shows that they is no statistical difference with the population mean. The p-value is 1 which is greater than 0.05 so we fail to reject the null hypothesis.
+The results of the T-test for the suspension coils against manufacturing Lot1 shows that there is no statistical difference with the population mean. The p-value is 1 which is greater than 0.05 so we fail to reject the null hypothesis.
 
 ![Deliverable 3 - TTest_LOT1](https://user-images.githubusercontent.com/42978221/159212584-65ea9ae1-b46d-4b26-8ca3-b99dad2d951b.png)
 
 * Lot2.
-The results of the T-test for the suspension coils against manufacturing Lot1 shows that they is no statistical difference with the population mean. The p-value is 0.6072 which is greater than 0.05 so we fail to reject the null hypothesis.
+The results of the T-test for the suspension coils against manufacturing Lot1 shows that there is no statistical difference with the population mean. The p-value is 0.6072 which is greater than 0.05 so we fail to reject the null hypothesis.
 
 ![Deliverable 3 - TTest_LOT2](https://user-images.githubusercontent.com/42978221/159212590-5a15b580-5544-4fb1-9222-0a0441631ecd.png)
 
 * Lot3.
-The results of the T-test for the suspension coils against manufacturing Lot3 shows that they is a statistical difference from the population mean. The p-value is 0.04168 which is less than .05 so we reject the null hypothesis as the evidence suggests that there is a very weak correlation between the sample PSI of Lot 3 and the population mean.
+The results of the T-test for the suspension coils against manufacturing Lot3 shows that there is a statistical difference from the population mean. The p-value is 0.04168 which is less than 0.05 so we reject the null hypothesis as the evidence suggests that there is a very weak correlation between the sample PSI of Lot 3 and the population mean.
 
 ![Deliverable 3 - TTest_LOT3](https://user-images.githubusercontent.com/42978221/159212602-147f0e41-4464-47f0-859e-71767039c8b3.png)
 
 The T tests confirm our belief that something is very odd with Lot3 which needs to be investigated and it might be one of the reasons for the problems that MechaCar is experiencing.
 
-
 ## Study Design: Comparing the MechaCar to the Competition
+
+To design a statistical study which will allow us to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers, following metrics should be considered:
+* Cost;
+* City or highway fuel efficiency; 
+* Horse power;
+* Maintenance cost;
+* Safety rating among others.
+
+#### Possible Hypotheses:
+1. Null Hypothesis - Comparable MechaCar model has a better city fuel efficiency.
+2. Alternative Hypothesis - Comparable MechaCar model does not hav a better city fuel efficiency.
+#### Statistical Test:
+I would recommend using the t-test model to test the statistical difference between the mean of two samples.
+#### Dataset:
+A fuel efficiency data from comparable car models should be randomly collected into a sample for an anaysis.
