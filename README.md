@@ -52,14 +52,24 @@ We wrote an RScript using the t.test() function to determine if the PSI across a
 ![Deliverable 3 - TTest_total](https://user-images.githubusercontent.com/42978221/159212578-7af86e21-1870-4bf6-8c7f-679e40446919.png)
 
 The output above indicates that the suspension coils across all manufacturing lots are not statistically different from the population mean.
-The p-value is 0.06028 which is greater than 0.05 so we fail to reject the null hypothesis.
+The p-value is 0.06028 which is greater than 0.05 so we fail to reject the null hypothesis, as there is not enough evidence to support its rejection.
+
+* Lot1.
+A review of the results of the T-test for the suspension coils against manufacturing lot1 shows that they are not statistically different from the population mean, and the p-value is 1 which is greater than .05 so we fail to reject the null hypothesis.
 
 ![Deliverable 3 - TTest_LOT1](https://user-images.githubusercontent.com/42978221/159212584-65ea9ae1-b46d-4b26-8ca3-b99dad2d951b.png)
 
+* Lot2.
+A review of the results of the T-test for the suspension coils against manufacturing lot2 shows that they are not statistically different from the population mean, and the p-value is 0.6072 which is greater than .05 so we fail to reject the null hypothesis.
+
 ![Deliverable 3 - TTest_LOT2](https://user-images.githubusercontent.com/42978221/159212590-5a15b580-5544-4fb1-9222-0a0441631ecd.png)
+
+* Lot3.
+A review of the results of the T-test for the suspension coils against manufacturing lot3 that they are statistically different from the population mean, and the p-value is 0.04168 which is less than .05 so we reject the null hypothesis tha they are not statistically different.
 
 ![Deliverable 3 - TTest_LOT3](https://user-images.githubusercontent.com/42978221/159212602-147f0e41-4464-47f0-859e-71767039c8b3.png)
 
+The T tests confirm our belief that something is wrong in Lot3 which needs to be investigated further and may be one of the reasons for the problems that MechaCar is facing.
 
 
 ## Study Design: Comparing the MechaCar to the Competition
