@@ -47,7 +47,12 @@ Lot 3 however has a much higher variance of 170.2861224, which exceeds the varia
 
 ## T-Test on Suspension Coils
 
+We wrote an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
 ![Deliverable 3 - TTest_total](https://user-images.githubusercontent.com/42978221/159212578-7af86e21-1870-4bf6-8c7f-679e40446919.png)
+
+The output above indicates that the suspension coils across all manufacturing lots are not statistically different from the population mean.
+The p-value is 0.06028 which is greater than 0.05 so we fail to reject the null hypothesis.
 
 ![Deliverable 3 - TTest_LOT1](https://user-images.githubusercontent.com/42978221/159212584-65ea9ae1-b46d-4b26-8ca3-b99dad2d951b.png)
 
